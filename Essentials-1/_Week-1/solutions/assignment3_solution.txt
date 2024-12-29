@@ -1,0 +1,27 @@
+# Solutions for Assignment 3: Command Practice
+
+1. Command to list all files, including hidden ones:
+ls -la
+
+2. Command to go to your home directory:
+cd ~
+# or simply:
+cd
+
+3. Command to create a new directory:
+mkdir directory_name
+# To create nested directories:
+mkdir -p parent/child/grandchild
+
+4. Command to copy a file:
+cp source_file destination_file
+# To copy a directory and its contents:
+cp -r source_directory destination_directory
+
+Additional Tips:
+- Use wildcards with these commands:
+  * cp *.txt destination/    # Copy all .txt files
+  * ls -l *.sh              # List all shell scripts
+- Use relative or absolute paths:
+  * cp ../file.txt ./       # Copy from parent directory
+  * cp /absolute/path/file.txt ./ 
