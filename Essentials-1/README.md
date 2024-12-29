@@ -1,4 +1,4 @@
-# Bash Scripting Essentials Course
+# Bash Scripting Essentials 1 Course
 
 A comprehensive 4-week course designed to take you from bash scripting basics to advanced concepts.
 
